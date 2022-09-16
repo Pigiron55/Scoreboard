@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link src: url('fonts\Cursed Timer ULiL.ttf')  format('truetype');>
+    </head>
+    <body >
+        <div id="img" >
+            <div class="container">
+                <div>
+                    <h3>HOME</h3>
+                    <div id="score-left">
+                        <p class="score" id="homeScore">0</p>
+                        </div>
+                    <button class="button" id="home1-btn" onclick="homeOne()">+ 1</button>
+                    <button class="button" id="home2-btn" onclick="homeTwo()">+ 2</button>
+                    <button class="button" id="home3-btn" onclick="homeThree()">+ 3</button>
+                </div>
+                
+            
+                <div id="period">
+                    <h4>PERIOD</h4>
+                    <p class="period" id="whichPeriod">1</p>
+                    <button class="button" id="period-btn" onclick="period()">PERIOD</button>
+                </div>
+                
+                <div>
+                    <h3>GUEST</h3>
+                    <div id="score-right">
+                        <p class="score" id="guestScore">0</p>
+                        </div>
+                    <button class="button" id="guest1-btn" onclick="guestOne()">+ 1</button>
+                    <button class="button" id="guest2-btn" onclick="guestTwo()">+ 2</button>
+                    <button class="button" id="guest3-btn" onclick="guestThree()">+ 3</button>
+                </div>
+            </div>
+            <button class="button" id="reset-btn" onclick="reset()">RESET BOARD</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

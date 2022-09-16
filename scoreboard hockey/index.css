@@ -1,0 +1,159 @@
+body {
+    color: white;
+    margin: auto auto;
+    margin-top: 70px;
+    text-align: center;
+    background-color: #075985;
+    max-width: 640;
+    max-height: 1136;
+}
+
+#img {
+    background-image: url("hockey.jpg");
+    background-size: cover;
+    border: 6px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #4C5B61;
+}
+
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    src: url('fonts\CursedTimerUlil-Aznm.ttf');
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+#score-left {
+    font-family: 'CursedTimerUlil-Aznm', 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    background: black;
+    background-size: 200px 200px;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 8px;
+    margin: 0;
+}
+
+#score-right {
+    font-family: 'CursedTimerUlil-Aznm', 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: black;
+    background-size: 200px 200px;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    margin: 0;
+}
+
+button {
+    border: 1px solid white;
+    background-color: #075985;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+button:hover{
+    transform: scaleX(1.05);
+}
+
+.score {
+    font-family: 'CursedTimerUlil-Aznm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+    padding-top: 10px;
+}
+
+#reset-btn {
+    border: 1px solid white;
+    background-color: #075985;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+    
+    
+}
+
+.period {
+    align-content: center;
+    font-family: 'CursedTimerUlil-Aznm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+#period {
+    
+    font-family: 'CursedTimerUlil-Aznm', 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 8px;
+    background: black;
+    width: 90px;
+    height: 60px;
+    background: #080001;
+    margin-top: 60px;
+    padding: 10px;
+    
+   
+    text-align: center;
+
+}
+
+#period-btn {
+    align-content: center;
+    border: 1px solid white;
+    background-color: #075985;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 89px;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+    
+    
+}
